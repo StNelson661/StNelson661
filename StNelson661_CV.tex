@@ -1,0 +1,227 @@
+%-------------------------
+% Resume in Latex
+% Author : Sven Nelson
+% License : MIT
+%------------------------
+
+\documentclass[letterpaper,11pt]{article}
+
+\usepackage{latexsym}
+\usepackage[empty]{fullpage}
+\usepackage{titlesec}
+\usepackage{marvosym}
+\usepackage[usenames,dvipsnames]{color}
+\usepackage{verbatim}
+\usepackage{enumitem}
+\usepackage[hidelinks]{hyperref}
+\usepackage{fancyhdr}
+\usepackage[english]{babel}
+\usepackage{tabularx}
+\input{glyphtounicode}
+
+
+%----------FONT OPTIONS----------
+% sans-serif
+% \usepackage[sfdefault]{FiraSans}
+% \usepackage[sfdefault]{roboto}
+% \usepackage[sfdefault]{noto-sans}
+% \usepackage[default]{sourcesanspro}
+
+% serif
+% \usepackage{CormorantGaramond}
+% \usepackage{charter}
+
+
+\pagestyle{fancy}
+\fancyhf{} % clear all header and footer fields
+\fancyfoot{}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+
+% Adjust margins
+\addtolength{\oddsidemargin}{-0.5in}
+\addtolength{\evensidemargin}{-0.5in}
+\addtolength{\textwidth}{1in}
+\addtolength{\topmargin}{-.5in}
+\addtolength{\textheight}{1.0in}
+
+\urlstyle{same}
+
+\raggedbottom
+\raggedright
+\setlength{\tabcolsep}{0in}
+
+% Sections formatting
+\titleformat{\section}{
+  \vspace{-4pt}\scshape\raggedright\large
+}{}{0em}{}[\color{black}\titlerule \vspace{-5pt}]
+
+% Ensure that generate pdf is machine readable/ATS parsable
+\pdfgentounicode=1
+
+%-------------------------
+% Custom commands
+\newcommand{\resumeItem}[1]{
+  \item\small{
+    {#1 \vspace{-2pt}}
+  }
+}
+
+\newcommand{\resumeSubheading}[4]{
+  \vspace{-2pt}\item
+    \begin{tabular*}{0.97\textwidth}[t]{l@{\extracolsep{\fill}}r}
+      \textbf{#1} & #2 \\
+      \textit{\small#3} & \textit{\small #4} \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeSubSubheading}[2]{
+    \item
+    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+      \textit{\small#1} & \textit{\small #2} \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeProjectHeading}[2]{
+    \item
+    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+      \small#1 & #2 \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeSubItem}[1]{\resumeItem{#1}\vspace{-4pt}}
+
+\renewcommand\labelitemii{$\vcenter{\hbox{\tiny$\bullet$}}$}
+
+\newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=0.15in, label={}]}
+\newcommand{\resumeSubHeadingListEnd}{\end{itemize}}
+\newcommand{\resumeItemListStart}{\begin{itemize}}
+\newcommand{\resumeItemListEnd}{\end{itemize}\vspace{-5pt}}
+
+%-------------------------------------------
+%%%%%%  RESUME STARTS HERE  %%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+\begin{document}
+
+%----------HEADING----------
+
+
+\begin{center}
+    \textbf{\Huge \scshape Stephen "Sven" Nelson} \\ \vspace{1pt}
+    \small +1(661)878-5378 $|$ \href{mailto:StNelson661@Gmail.com}{\underline{StNelson661@gmail.com}} $|$ 
+    \href{https://linkedin.com/in/stnelson661}{\underline{linkedin.com/in/stnelson661}} $|$
+    \href{https://github.com/StNelson661}{\underline{github.com/StNelson661}}
+\end{center}
+
+
+%-----------EDUCATION-----------
+\section{Education}
+  \resumeSubHeadingListStart
+    \resumeSubheading
+      {Master of Public Health in Epidemiology}{Aurora, CO, USA}
+      {University of Colorado- Anschutz Medical Campus}{June 2019 -- August 2021}
+    \resumeSubheading
+      {Bachelor of Science in Nursing}{Omaha, NE, USA}
+      {Creighton University}{August 2013 -- May 2018}
+  \resumeSubHeadingListEnd
+
+
+%-----------EXPERIENCE-----------
+\section{Experience}
+  \resumeSubHeadingListStart
+
+    \resumeSubheading
+      {Senior Data Manager}{June 2023 -- Present}
+      {University College London}{London, England}
+      \resumeItemListStart
+        \resumeItem{Review and advise on CRF design to enable accurate capture of data within EDC system}
+        \resumeItem{Develop eCRFs including appropriate checks for data validation in EDC systems}
+        \resumeItem{Provide systems training to end users}
+        \resumeItem{Provide data management advice at protocol development stage and throughout trial}
+        \resumeItem{Conduct quality control checks and internal audits. Prepare for external audits and inspection by regulatory authorities}
+        \resumeItem{Provide guidance of best practices in data management, for example, getting the best use out of clinical databases such as OpenClinica and SealedEnvelope to enter data and efficient methods of data management.}
+        \resumeItem{Liaise with researchers to map out data flow adn create Data Protection Impact Assessments.}
+        \resumeItem{Train other members of department in data management}
+        \resumeItem{Collaborate with other Clinical Trials Units Data Management professionals through participation in the UKCRC Data Information Security Collaboration}
+        \resumeItem{Utilize Electronic Data Capture (EDC)Systems such as OpenClinica, SealedEnvelope, and RedCap to build and manage clinical trials databases.}
+      \resumeItemListEnd
+      
+% -----------Multiple Positions Heading-----------
+%    \resumeSubSubheading
+%     {Software Engineer I}{Oct 2014 - Sep 2016}
+%     \resumeItemListStart
+%        \resumeItem{Apache Beam}
+%          {Apache Beam is a unified model for defining both batch and streaming data-parallel processing pipelines}
+%     \resumeItemListEnd
+%    \resumeSubHeadingListEnd
+%-------------------------------------------
+
+    \resumeSubheading
+      {Senior Research Nurse}{January 2023 -- June 2023}
+      {NHS Lothian}{Edinburgh, Scotland}
+      \resumeItemListStart
+        \resumeItem{Apply protocols to studies utilising Good Clinical Practice (GCP) and International Conference on Harmonisation (ICH) guidelines}
+        \resumeItem{Create and maintain investigator site files for various studies per sponsor and local regulatory requirements}
+        \resumeItem{Create and maintain relationships with inter-professional teams to ensure studies are practiced as efficiently as possible}
+        \resumeItem{Wrote standard operating procedures (SOPs) to plan and implement workstreams}
+        \resumeItem{Answer and resolve queries in a timely and accurate manner}
+        \resumeItem{Utilize Electronic Data Capture (EDC) systems such as OpenClinica, Medidata Rave, RedCap, and SealedEnvelope}
+    \resumeItemListEnd
+
+    \resumeSubheading
+      {Epidemiologist}{February 2021 -- September 2021}
+      {Washington State Department of Health}{Olympia, WA, USA}
+      \resumeItemListStart
+        \resumeItem{Ensured Quality Assurance and Quality Improvement of data entered into the WA Health database}
+        \resumeItem{Outreach to end-users in hospitals to validate data}
+        \resumeItem{Updated public facing dashboard for Department of Health utilizing Microsoft Power BI}
+        \resumeItem{Built and managed the WA Health healthcare emergency logistics surveillance system as the program epidemiologist.}
+        \resumeItem{Communicated and collaborated with and provides data and technical assistance to broad range of public health constituents, including researchers, federal, state and local public health officials, government officials, physicians, nurses, and other health professionals. }
+        \resumeItem{Applied findings of research, surveillance, and evaluation to recommend healthcare and health system improvements to enhance the knowledge of best practices with patient care.}
+      \resumeItemListEnd
+
+ \resumeSubheading
+      {Lead Clinical Research Nurse Coordinator}{June 2020 -- January 2021}
+      {University of Kansas Medical Center}{Kansas City, KS, USA}
+      \resumeItemListStart
+        \resumeItem{Utilized Electronic Data Capture systems- Medidata Rave, RedCap}
+        \resumeItem{Built databases for several studies}
+        \resumeItem{Created and built partnerships with 7 different sites within the Kansas City Metro to create one collaborative team for enrolment of participants.}
+        \resumeItem{Managed clinical research studies through coordination and participation in collection, documentation, and analysis of data.}
+        \resumeItem{Ensure knowledge of GCP/ICH and FDA standards for clinical trials.}
+        \resumeItem{Identified inconsistencies and monitored patients progress including documentation and reporting of adverse events.}
+      \resumeItemListEnd
+
+  \resumeSubHeadingListEnd
+
+
+%-----------Clinical Nursing Experience-----------
+\section{Clinical Nursing Experience}
+    \resumeSubHeadingListStart
+      \resumeProjectHeading
+          {\textbf{Community Regional Medical Center, Fresno, CA} $|$ \emph{CV PCU Travel Nurse}}{October 2021 -- December 2021}
+      \resumeProjectHeading
+          {\textbf{New York Presbyterian- Lower Manhattan, New York, NY} $|$ \emph{COVID Travel Nurse}}{April 2020 -- June 2020}
+      \resumeProjectHeading
+          {\textbf{UCHealth, Aurora, CO} $|$ \emph{Neurosciences Nurse}}{May 2019 -- June 2020}
+      \resumeProjectHeading
+          {\textbf{Saint Luke's Hospital of Kansas City, Kansas City, MO} $|$ \emph{Float Pool Nurse}}{July 2018 -- May 2019}
+    \resumeSubHeadingListEnd
+
+
+
+%
+%-----------PROGRAMMING SKILLS-----------
+\section{Technical Skills}
+ \begin{itemize}[leftmargin=0.15in, label={}]
+    \small{\item{
+     \textbf{Languages}{: SAS, SQL, R, LEARNING: Python, Rust} \\
+     \textbf{Markup}{: LATEX, knitr, markdown} \\
+     \textbf{Other}{: Git, Docker, Google Cloud Platform, VS Code, Visual Studio, Power BI, ArcGIS Pro, Microsoft Office (Word, Excel, PowerPoint)} \\
+     \
+    }}
+ \end{itemize}
+
+%----------------------------
+\end{document}
